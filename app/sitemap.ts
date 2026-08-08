@@ -1,0 +1,3 @@
+import type { MetadataRoute } from "next";
+const routes = ["", "/about", "/services", "/industries", "/innovation", "/innovation-roadmap", "/methodologies", "/leadership", "/insights", "/publications", "/resources", "/research", "/white-papers", "/case-studies", "/global-opportunities", "/partnerships", "/speaking-events", "/media-kit", "/careers", "/governance", "/sustainability", "/trust-security", "/faq", "/contact"];
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map((route) => ({ url: `https://unifluxdglobal.com${route}`, lastModified: new Date(), changeFrequency: "monthly", priority: route === "" ? 1 : .7 })); }

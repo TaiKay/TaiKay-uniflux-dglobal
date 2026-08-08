@@ -1,0 +1,1 @@
+export default function Loading() { return <main aria-busy="true" aria-label="Loading page" className="container py-24"><div className="h-4 w-28 animate-pulse bg-slate-200" /><div className="mt-7 h-16 max-w-3xl animate-pulse bg-slate-200" /><div className="mt-4 h-16 max-w-xl animate-pulse bg-slate-100" /></main>; }

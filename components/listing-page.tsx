@@ -1,0 +1,3 @@
+import { PageHero } from "@/components/page-hero";
+import { Reveal } from "@/components/reveal";
+export function ListingPage({ eyebrow, title, intro, items }: { eyebrow: string; title: string; intro: string; items: { title: string; description: string }[] }) { return <main><PageHero eyebrow={eyebrow} title={title} intro={intro} /><section className="container py-20 md:py-28"><div className="grid gap-x-14 gap-y-0 md:grid-cols-2">{items.map((item, i) => <Reveal key={item.title} className="border-t border-slate-200 py-8"><span className="number">0{i + 1}</span><h2 className="display mt-4 text-3xl font-semibold">{item.title}</h2><p className="mt-3 max-w-md text-[.95rem] leading-7 text-slate">{item.description}</p></Reveal>)}</div></section></main>; }

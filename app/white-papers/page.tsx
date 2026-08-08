@@ -1,0 +1,5 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { PageHero } from "@/components/page-hero";
+export const metadata: Metadata = {title:"White Papers",description:"UNIFLUX-D Global white papers and long-form executive research."};
+export default function WhitePapers(){return <main><PageHero eyebrow="White papers" title="Long-form thinking, released with purpose." intro="White papers provide a deeper treatment of questions that merit sustained executive attention."/><section className="bg-mist py-20 md:py-28"><div className="container max-w-3xl"><p className="eyebrow">Publication status</p><h2 className="display mt-4 text-4xl font-semibold">White papers will appear here on release.</h2><p className="mt-6 max-w-2xl leading-8 text-slate">UNIFLUX-D Global will publish white papers only when research and editorial review are complete. This protects the quality, context and accuracy of the material we make available.</p><Link href="/resources" className="mt-8 inline-block bg-navy px-5 py-3 text-sm font-semibold text-white hover:bg-blue">Visit the resource centre →</Link></div></section></main>}
