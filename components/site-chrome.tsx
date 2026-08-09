@@ -1,10 +1,17 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const links = [
   ["About", "/about"], ["Services", "/services"], ["Industries", "/industries"], ["Innovation", "/innovation"], ["Methodologies", "/methodologies"], ["Leadership", "/leadership"], ["Insights", "/insights"]
 ];
 
-export function Mark() { return <Link href="/" aria-label="UNIFLUX-D Global home" className="flex items-center gap-2.5"><span className="grid h-8 w-8 place-items-center bg-blue text-lg font-bold text-white">U</span><span className="font-display text-sm font-bold tracking-tight text-navy">UNIFLUX-D<br /><span className="text-[.6rem] tracking-[.19em] text-slate">GLOBAL LIMITED</span></span></Link>; }
+export function Mark() {
+  return <Link href="/" aria-label="UNIFLUX-D Global home" className="flex items-center">
+    <span className="block rounded-sm bg-white p-1">
+      <Image src="/uniflux-d-logo.svg" alt="UNIFLUX-D Global Limited — Intelligence | Innovation | Impact" width={150} height={102} className="h-14 w-[104px] object-contain sm:h-16 sm:w-[118px]" priority />
+    </span>
+  </Link>;
+}
 
 export function Header() { return <header className="border-b border-slate-200 bg-white"><div className="container flex min-h-20 items-center justify-between gap-4"><Mark /><nav aria-label="Primary navigation" className="hidden items-center gap-5 xl:flex">{links.map(([label, href]) => <Link className="text-sm font-medium text-slate transition hover:text-blue" href={href} key={href}>{label}</Link>)}</nav><div className="hidden sm:block"><Link className="bg-navy px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-blue" href="/contact">Let&apos;s Talk <span aria-hidden>↗</span></Link></div><details className="relative xl:hidden"><summary className="cursor-pointer list-none border border-slate-300 px-3 py-2 text-sm font-semibold text-navy [&::-webkit-details-marker]:hidden">Menu <span aria-hidden>+</span></summary><nav aria-label="Mobile navigation" className="absolute right-0 z-20 mt-2 w-64 border border-slate-200 bg-white p-3 shadow-lg">{links.map(([label, href]) => <Link className="block px-3 py-2.5 text-sm font-medium text-slate hover:bg-mist hover:text-blue" href={href} key={href}>{label}</Link>)}<Link className="mt-2 block bg-navy px-3 py-2.5 text-sm font-semibold text-white sm:hidden" href="/contact">Let&apos;s Talk →</Link></nav></details></div></header>; }
 
