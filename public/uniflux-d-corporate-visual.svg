@@ -1,2 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10"><!-- placeholder -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">UNIFLUX-D corporate people and global markets</title>
+<desc id="desc">Stylised diverse African corporate professionals with global currency and growth signals.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061b36"/><stop offset="1" stop-color="#0b2f5f"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0c45a"/><stop offset="1" stop-color="#c99a39"/></linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1558d6"/><stop offset="1" stop-color="#73b1ff"/></linearGradient>
+</defs>
+<rect width="1200" height="700" rx="28" fill="url(#bg)"/>
+<g opacity=".12" stroke="#fff"><path d="M0 100H1200M0 200H1200M0 300H1200M0 400H1200M0 500H1200M0 600H1200"/><path d="M100 0V700M200 0V700M300 0V700M400 0V700M500 0V700M600 0V700M700 0V700M800 0V700M900 0V700M1000 0V700M1100 0V700"/></g>
+<g opacity=".35" fill="none" stroke="#73b1ff"><circle cx="910" cy="190" r="130"/><circle cx="910" cy="190" r="92"/><path d="M790 190h240M910 60v260"/></g>
+<g fill="none" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"><path d="M720 390C790 330 815 350 865 300S930 225 1005 245S1080 170 1140 115"/><path d="M730 430C815 400 865 420 925 370S1015 330 1140 300"/></g>
+<g font-family="Arial, sans-serif" text-anchor="middle">
+  <g transform="translate(105 185)"><circle cx="100" cy="75" r="55" fill="#7a4932"/><path d="M48 70Q100 0 152 70Q145 15 100 15Q55 15 48 70" fill="#1b1b1b"/><path d="M40 150Q100 105 160 150L185 315H15Z" fill="#c99a39"/><path d="M70 150L100 190L130 150" fill="#fff"/><rect x="62" y="205" width="76" height="6" rx="3" fill="#061b36"/></g>
+  <g transform="translate(335 125)"><circle cx="100" cy="75" r="55" fill="#5b3527"/><path d="M45 65Q100 0 155 65Q150 5 100 5Q50 5 45 65" fill="#171717"/><path d="M40 150Q100 105 160 150L190 340H10Z" fill="#1558d6"/><path d="M65 145H135L120 230H80Z" fill="#fff"/><path d="M82 195H118" stroke="#061b36" stroke-width="7"/></g>
+  <g transform="translate(565 180)"><circle cx="100" cy="75" r="55" fill="#9b6042"/><path d="M42 70Q100 0 158 70Q150 10 100 10Q50 10 42 70" fill="#1a1716"/><path d="M35 150Q100 105 165 150L190 320H10Z" fill="#f4f7fb"/><path d="M65 150L100 205L135 150" fill="#061b36"/><rect x="75" y="205" width="50" height="6" rx="3" fill="#c99a39"/></g>
+  <g transform="translate(790 330)"><circle cx="85" cy="65" r="48" fill="#6e3f2d"/><path d="M38 60Q85 0 132 60Q125 8 85 8Q45 8 38 60" fill="#181818"/><path d="M30 130Q85 95 140 130L160 285H10Z" fill="#0f3b72"/><path d="M55 132L85 180L115 132" fill="#fff"/></g>
+  <g transform="translate(1010 345)"><circle cx="65" cy="55" r="42" fill="#4f2d22"/><path d="M25 50Q65 0 105 50Q100 8 65 8Q30 8 25 50" fill="#151515"/><path d="M18 112Q65 82 112 112L132 265H0Z" fill="#c99a39"/><path d="M40 115L65 155L90 115" fill="#fff"/></g>
+</g>
+<g font-family="Arial, sans-serif" font-weight="700">
+ <g transform="translate(760 40)"><rect width="120" height="70" rx="16" fill="#fff" fill-opacity=".96"/><text x="60" y="46" text-anchor="middle" font-size="34" fill="#061b36">$</text><text x="95" y="46" font-size="13" fill="#1558d6">USD</text></g>
+ <g transform="translate(895 40)"><rect width="120" height="70" rx="16" fill="#fff" fill-opacity=".96"/><text x="60" y="46" text-anchor="middle" font-size="34" fill="#061b36">£</text><text x="95" y="46" font-size="13" fill="#1558d6">GBP</text></g>
+ <g transform="translate(1030 40)"><rect width="120" height="70" rx="16" fill="#fff" fill-opacity=".96"/><text x="60" y="46" text-anchor="middle" font-size="34" fill="#061b36">₦</text><text x="95" y="46" font-size="13" fill="#1558d6">NGN</text></g>
+</g>
+<g font-family="Arial, sans-serif" fill="#fff"><text x="55" y="570" font-size="18" letter-spacing="4" fill="#f0c45a">UNIFLUX-D GLOBAL LIMITED</text><text x="55" y="615" font-size="38" font-weight="700">People. Markets. Intelligence.</text><text x="55" y="650" font-size="18" opacity=".78">African expertise with a global enterprise perspective.</text></g>
 </svg>
