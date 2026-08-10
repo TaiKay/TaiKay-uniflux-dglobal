@@ -25,7 +25,9 @@ export default function Home() { return <main>
     <h1 id="home-hero-heading" className="sr-only">
       UNIFLUX-D Global Limited — Engineering intelligence. Empowering growth.
     </h1>
-    <img src="/images/uniflux-d-hero-approved.png" alt="UNIFLUX-D Global executive team assembled around a connected global network." className="h-auto w-full" />
+    <div className="aspect-[7/4] w-full overflow-hidden">
+      <img src="/images/uniflux-d-hero-approved.png" alt="UNIFLUX-D Global executive team assembled around a connected global network." className="h-full w-full object-cover object-bottom" />
+    </div>
   </section>
   <section className="bg-navy pb-10 text-white"><div className="container grid grid-cols-2 gap-0 border-t border-white/10 md:grid-cols-5">
     {[["15+", "Years' Experience"], ["Africa", "Across Africa & Global Markets"], ["50+", "Projects & Advisory Engagements"], ["Excellence", "in Delivery"], ["Sustainable", "Impact"]].map(([n, t]) => <div key={t} className="border-b border-white/10 px-4 py-7 text-center md:border-b-0 md:border-r last:md:border-r-0"><div className="number text-xl md:text-2xl">{n}</div><p className="mt-1 text-xs leading-5 text-slate-300 md:text-sm">{t}</p></div>)}
@@ -47,4 +49,3 @@ export default function Home() { return <main>
   <CorporateTimeline />
   <section className="bg-blue py-20 text-white"><div className="container flex flex-col justify-between gap-8 md:flex-row md:items-end"><div><p className="eyebrow !text-blue-100">Start with a conversation</p><h2 className="display mt-4 max-w-2xl text-4xl font-semibold md:text-5xl">Let&apos;s make complex work clearer.</h2><p className="mt-5 max-w-xl leading-7 text-blue-100">Bring the question, the mandate or the opportunity. We will help you find a way forward.</p></div><Link href="/contact" className="inline-flex items-center gap-3 self-start bg-white px-5 py-3.5 text-sm font-bold text-navy transition hover:bg-gold md:self-auto">Contact UNIFLUX-D <Icon name="arrow" className="h-4 w-4" /></Link></div></section>
 </main>; }
-
