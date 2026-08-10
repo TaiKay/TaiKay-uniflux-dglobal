@@ -25,16 +25,7 @@ export default function Home() { return <main>
     <h1 id="home-hero-heading" className="sr-only">
       UNIFLUX-D Global Limited — Engineering intelligence. Empowering growth.
     </h1>
-    <Image
-      src="/images/uniflux-d-hero-approved.png"
-      alt="UNIFLUX-D Global executive team assembled around a connected global network."
-      width={1448}
-      height={1086}
-      priority
-      quality={90}
-      sizes="100vw"
-      className="h-auto w-full"
-    />
+    <img src="/images/uniflux-d-hero-approved.png" alt="UNIFLUX-D Global executive team assembled around a connected global network." className="h-auto w-full" />
   </section>
   <section className="bg-navy pb-10 text-white"><div className="container grid grid-cols-2 gap-0 border-t border-white/10 md:grid-cols-5">
     {[["15+", "Years' Experience"], ["Africa", "Across Africa & Global Markets"], ["50+", "Projects & Advisory Engagements"], ["Excellence", "in Delivery"], ["Sustainable", "Impact"]].map(([n, t]) => <div key={t} className="border-b border-white/10 px-4 py-7 text-center md:border-b-0 md:border-r last:md:border-r-0"><div className="number text-xl md:text-2xl">{n}</div><p className="mt-1 text-xs leading-5 text-slate-300 md:text-sm">{t}</p></div>)}
